@@ -10,4 +10,7 @@
 
     可以自己运行项目看看怎么写，写的东西很糙，见谅。
 
-  [1]: http://developer.egret.com/cn/github/egret-docs/Engine2D/minigame/openDataContext/index.html
+  
+
+
+  [1]: %5B1%5D:%20http://developer.egret.com/cn/github/egret-docs/Engine2D/minigame/openDataContext/index.html
