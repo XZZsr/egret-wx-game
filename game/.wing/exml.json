@@ -1,0 +1,12 @@
+{
+    "163961b9850": {
+        "path": "FriendRank.ts",
+        "class": "FriendRank",
+        "parentPath": ""
+    },
+    "1639639562f": {
+        "path": "GroupRank.ts",
+        "class": "GroupRank",
+        "parentPath": ""
+    }
+}

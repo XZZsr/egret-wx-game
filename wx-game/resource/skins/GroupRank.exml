@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GroupRankSkin"  width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1639639562f" ></w:Config>
+	<e:Rect width="100%" height="100%" x="0" y="0" strokeAlpha="0.7" fillAlpha="0.7"/>
+	<e:Label text="群排行" y="96" horizontalCenter="0"/>
+	<e:Button id="btnClose" label="关闭" x="301" y="1161"/>
+</e:Skin>
