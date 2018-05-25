@@ -1,6 +1,10 @@
 ### 关于白鹭引擎微信的好友数据以及群排行数据的介绍
     微信小游戏提供了好友以及群好友数据的接口，但是获取起来很麻烦，必须在微信定义的子域下才能获取数据。
-白鹭基于此也提供了解决方案，但是做起来很坑爹。我们先按照白鹭的[官方文档][1]来解决子域问题。
+白鹭基于此也提供了解决方案，但是做起来很坑爹。我们先按照白鹭的[官方文档]
+
+http://developer.egret.com/cn/github/egret-docs/Engine2D/minigame/openDataContext/index.html
+
+来解决子域问题。
     
 这里面有些坑，如文章的第七点，发布之后再我们的小游戏中会生成一个openDataContext ，但
 随后就会报错，这时候就需要我们自己创建个index.js文件。这是官方讲的，但实际你新建的index.js并不会有内容，
@@ -13,7 +17,11 @@
 
 可以自己运行项目看看怎么写，写的东西很糙，见谅。
 
-  
+### 目录接口
 
-
-  [1]: %5B1%5D:%20http://developer.egret.com/cn/github/egret-docs/Engine2D/minigame/openDataContext/index.html
+```
+    1.game是游戏主项目
+    2.open是子域项目
+    3.wx-game 最终的小游戏项目
+    4.game.json和platform.js 每次主项目发布都会导致这两个文件初始化
+```
